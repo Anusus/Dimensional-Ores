@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
-	"textures": {
-		"all": "dimensionalores:blocks/end_lapis"
-	}
+    "parent": "dimensionalores:block/layered_ore",
+    "textures": {
+          "ore": "dimensionalores:blocks/lapis_lazuli_ore_overlay",
+          "base": "blocks/end_stone"
+        }
 }

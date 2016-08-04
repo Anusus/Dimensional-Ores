@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
-	"textures": {
-		"all": "dimensionalores:blocks/end_emerald"
-	}
+    "parent": "dimensionalores:block/layered_ore",
+    "textures": {
+          "ore": "dimensionalores:blocks/emerald_ore_overlay",
+          "base": "blocks/end_stone"
+        }
 }

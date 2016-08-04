@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
-	"textures": {
-		"all": "dimensionalores:blocks/nether_diamond"
-	}
+    "parent": "dimensionalores:block/layered_ore",
+    "textures": {
+          "ore": "dimensionalores:blocks/diamond_ore_overlay",
+          "base": "blocks/netherrack"
+        }
 }

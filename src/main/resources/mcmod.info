@@ -3,7 +3,7 @@
 "modid": "dimensionalores",
 "name": "Dimensional Ores",
 "description": "Adds ores to The End and Nether.",
-"version": "0.0.1",
+"version": "0.0.2",
 "credits": "Codyrule040 for textures",
 "logoFile": "assets/dimensionalores/logo.png",
 "mcversion": "1.9.4",
