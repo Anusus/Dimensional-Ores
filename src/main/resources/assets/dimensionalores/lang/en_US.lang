@@ -1,0 +1,39 @@
+#Creative Tab
+itemGroup.dimensionalores=Dimensional Ores
+
+#Items
+
+#Blocks
+tile.nether_coal.name=Nether Coal Ore
+tile.end_coal.name=End Coal Ore
+tile.nether_iron.name=Nether Iron Ore
+tile.end_iron.name=End Iron Ore
+tile.nether_gold.name=Nether Gold Ore
+tile.end_gold.name=End Gold Ore
+tile.nether_diamond.name=Nether Diamond Ore
+tile.end_diamond.name=End Diamond Ore
+tile.nether_emerald.name=Nether Emerald Ore
+tile.end_emerald.name=End Emerald Ore
+tile.end_quartz.name=End Quartz Ore
+tile.overworld_quartz.name=Quartz Ore
+tile.nether_redstone.name=Nether Redstone Ore
+tile.end_redstone.name=End Redstone Ore
+tile.nether_lapis.name=Nether Lapis Lazuli Ore
+tile.end_lapis.name=End Lapis Lazuli Ore
+
+
+#Configuration Categories
+config.category.nether_ores.title=Nether Ores
+config.category.nether_ores.desc=Ores for the Nether.
+config.category.end_ores.title=End Ores
+config.category.end_ores.desc=Ores for The End.
+config.category.overworld_ores.title=Overworld Ores
+config.category.overworld_ores.desc=Ores for the overworld.
+
+#Configuration Settings
+config.add_nether_ores.title=Add Nether Ores
+config.add_nether_ores.desc=Should the Nether Ores be added?
+config.add_end_ores.title=Add End Ores
+config.add_end_ores.desc=Should the End Ores be added?
+config.add_overworld_ores.title=Add Overworld Ores
+config.add_overworld_ores.desc=Should the Overworld Ores be added?

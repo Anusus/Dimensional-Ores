@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "dimensionalores:blocks/nether_iron"
+	}
+}
