@@ -45,6 +45,9 @@ public class ModBlocks {
     public static Block nether_sulfur;
     public static Block end_sulfur;
     public static Block overworld_sulfur;
+    public static Block nether_titanium;
+    public static Block end_titanium;
+    public static Block overworld_titanium;
 
     public static void init(){
         nether_coal = new BlockDimCoalOre().setUnlocalizedName("nether_coal").setRegistryName("nether_coal").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
@@ -78,6 +81,9 @@ public class ModBlocks {
         nether_sulfur = new BlockDimSulfurOre().setUnlocalizedName("nether_sulfur").setRegistryName("nether_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         end_sulfur = new BlockDimSulfurOre().setUnlocalizedName("end_sulfur").setRegistryName("end_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         overworld_sulfur = new BlockDimSulfurOre().setUnlocalizedName("overworld_sulfur").setRegistryName("overworld_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_titanium = new BlockDimTitaniumOre().setUnlocalizedName("nether_titanium").setRegistryName("nether_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_titanium = new BlockDimTitaniumOre().setUnlocalizedName("end_titanium").setRegistryName("end_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_titanium = new BlockDimTitaniumOre().setUnlocalizedName("overworld_titanium").setRegistryName("overworld_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
     }
 
     public static void register(){
@@ -95,6 +101,7 @@ public class ModBlocks {
             registerBlock(nether_lead);
             registerBlock(nether_silver);
             registerBlock(nether_sulfur);
+            registerBlock(nether_titanium);
         }
         if (ConfigurationHandler.add_end_ores){
             registerBlock(end_coal);
@@ -111,6 +118,7 @@ public class ModBlocks {
             registerBlock(end_lead);
             registerBlock(end_silver);
             registerBlock(end_sulfur);
+            registerBlock(end_titanium);
         }
         if (ConfigurationHandler.add_overworld_ores){
             registerBlock(overworld_quartz);
@@ -120,6 +128,7 @@ public class ModBlocks {
             registerBlock(overworld_lead);
             registerBlock(overworld_silver);
             registerBlock(overworld_sulfur);
+            registerBlock(overworld_titanium);
         }
     }
 
@@ -156,6 +165,9 @@ public class ModBlocks {
         registerRender(nether_sulfur);
         registerRender(end_sulfur);
         registerRender(overworld_sulfur);
+        registerRender(nether_titanium);
+        registerRender(end_titanium);
+        registerRender(overworld_titanium);
     }
 
     private static void registerBlock(Block block){

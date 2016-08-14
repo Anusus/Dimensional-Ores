@@ -35,6 +35,9 @@ tile.overworld_silver.name=Overworld Silver Ore
 tile.nether_sulfur.name=Nether Sulfur Ore
 tile.end_sulfur.name=End Sulfur Ore
 tile.overworld_sulfur.name=Overworld Sulfur Ore
+tile.nether_titanium.name=Nether Titanium Ore
+tile.end_titanium.name=End Titanium Ore
+tile.overworld_titanium.name=Overworld Titanium Ore
 
 
 #Configuration Categories
