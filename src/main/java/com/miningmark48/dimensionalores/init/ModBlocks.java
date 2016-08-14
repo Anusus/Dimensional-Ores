@@ -30,6 +30,22 @@ public class ModBlocks {
     public static Block nether_lapis;
     public static Block end_lapis;
 
+    public static Block nether_aluminium;
+    public static Block end_aluminium;
+    public static Block overworld_aluminium;
+    public static Block nether_cobalt;
+    public static Block end_cobalt;
+    public static Block overworld_cobalt;
+    public static Block nether_lead;
+    public static Block end_lead;
+    public static Block overworld_lead;
+    public static Block nether_silver;
+    public static Block end_silver;
+    public static Block overworld_silver;
+    public static Block nether_sulfur;
+    public static Block end_sulfur;
+    public static Block overworld_sulfur;
+
     public static void init(){
         nether_coal = new BlockDimCoalOre().setUnlocalizedName("nether_coal").setRegistryName("nether_coal").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         end_coal = new BlockDimCoalOre().setUnlocalizedName("end_coal").setRegistryName("end_coal").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
@@ -47,6 +63,21 @@ public class ModBlocks {
         end_redstone = new BlockDimRedstoneOre().setUnlocalizedName("end_redstone").setRegistryName("end_redstone").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         nether_lapis = new BlockDimLapisOre().setUnlocalizedName("nether_lapis").setRegistryName("nether_lapis").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         end_lapis = new BlockDimLapisOre().setUnlocalizedName("end_lapis").setRegistryName("end_lapis").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_aluminium = new BlockDimAluminiumOre().setUnlocalizedName("nether_aluminium").setRegistryName("nether_aluminium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_aluminium = new BlockDimAluminiumOre().setUnlocalizedName("end_aluminium").setRegistryName("end_aluminium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_aluminium = new BlockDimAluminiumOre().setUnlocalizedName("overworld_aluminium").setRegistryName("overworld_aluminium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_cobalt = new BlockDimCobaltOre().setUnlocalizedName("nether_cobalt").setRegistryName("nether_cobalt").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_cobalt = new BlockDimCobaltOre().setUnlocalizedName("end_cobalt").setRegistryName("end_cobalt").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_cobalt = new BlockDimCobaltOre().setUnlocalizedName("overworld_cobalt").setRegistryName("overworld_cobalt").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_lead = new BlockDimLeadOre().setUnlocalizedName("nether_lead").setRegistryName("nether_lead").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_lead = new BlockDimLeadOre().setUnlocalizedName("end_lead").setRegistryName("end_lead").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_lead = new BlockDimLeadOre().setUnlocalizedName("overworld_lead").setRegistryName("overworld_lead").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_silver = new BlockDimSilverOre().setUnlocalizedName("nether_silver").setRegistryName("nether_silver").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_silver = new BlockDimSilverOre().setUnlocalizedName("end_silver").setRegistryName("end_silver").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_silver = new BlockDimSilverOre().setUnlocalizedName("overworld_silver").setRegistryName("overworld_silver").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_sulfur = new BlockDimSulfurOre().setUnlocalizedName("nether_sulfur").setRegistryName("nether_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_sulfur = new BlockDimSulfurOre().setUnlocalizedName("end_sulfur").setRegistryName("end_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_sulfur = new BlockDimSulfurOre().setUnlocalizedName("overworld_sulfur").setRegistryName("overworld_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
     }
 
     public static void register(){
@@ -58,6 +89,12 @@ public class ModBlocks {
             registerBlock(nether_emerald);
             registerBlock(nether_lapis);
             registerBlock(nether_redstone);
+
+            registerBlock(nether_aluminium);
+            registerBlock(nether_cobalt);
+            registerBlock(nether_lead);
+            registerBlock(nether_silver);
+            registerBlock(nether_sulfur);
         }
         if (ConfigurationHandler.add_end_ores){
             registerBlock(end_coal);
@@ -68,9 +105,21 @@ public class ModBlocks {
             registerBlock(end_lapis);
             registerBlock(end_redstone);
             registerBlock(end_quartz);
+
+            registerBlock(end_aluminium);
+            registerBlock(end_cobalt);
+            registerBlock(end_lead);
+            registerBlock(end_silver);
+            registerBlock(end_sulfur);
         }
         if (ConfigurationHandler.add_overworld_ores){
             registerBlock(overworld_quartz);
+
+            registerBlock(overworld_aluminium);
+            registerBlock(overworld_cobalt);
+            registerBlock(overworld_lead);
+            registerBlock(overworld_silver);
+            registerBlock(overworld_sulfur);
         }
     }
 
@@ -91,6 +140,22 @@ public class ModBlocks {
         registerRender(end_redstone);
         registerRender(nether_lapis);
         registerRender(end_lapis);
+
+        registerRender(nether_aluminium);
+        registerRender(end_aluminium);
+        registerRender(overworld_aluminium);
+        registerRender(nether_cobalt);
+        registerRender(end_cobalt);
+        registerRender(overworld_cobalt);
+        registerRender(nether_lead);
+        registerRender(end_lead);
+        registerRender(overworld_lead);
+        registerRender(nether_silver);
+        registerRender(end_silver);
+        registerRender(overworld_silver);
+        registerRender(nether_sulfur);
+        registerRender(end_sulfur);
+        registerRender(overworld_sulfur);
     }
 
     private static void registerBlock(Block block){

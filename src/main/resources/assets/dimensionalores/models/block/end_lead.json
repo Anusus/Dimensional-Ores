@@ -1,0 +1,7 @@
+{
+    "parent": "dimensionalores:block/layered_ore",
+    "textures": {
+          "ore": "dimensionalores:blocks/lead_ore_overlay",
+          "base": "blocks/end_stone"
+        }
+}

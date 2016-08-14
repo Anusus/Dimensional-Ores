@@ -20,6 +20,21 @@ tile.nether_redstone.name=Nether Redstone Ore
 tile.end_redstone.name=End Redstone Ore
 tile.nether_lapis.name=Nether Lapis Lazuli Ore
 tile.end_lapis.name=End Lapis Lazuli Ore
+tile.nether_aluminium.name=Nether Aluminium Ore
+tile.end_aluminium.name=End Aluminium Ore
+tile.overworld_aluminium.name=Overworld Aluminium Ore
+tile.nether_cobalt.name=Nether Cobalt Ore
+tile.end_cobalt.name=End Cobalt Ore
+tile.overworld_cobalt.name=Overworld Cobalt Ore
+tile.nether_lead.name=Nether Lead Ore
+tile.end_lead.name=End Lead Ore
+tile.overworld_lead.name=Overworld Lead Ore
+tile.nether_silver.name=Nether Silver Ore
+tile.end_silver.name=End Silver Ore
+tile.overworld_silver.name=Overworld Silver Ore
+tile.nether_sulfur.name=Nether Sulfur Ore
+tile.end_sulfur.name=End Sulfur Ore
+tile.overworld_sulfur.name=Overworld Sulfur Ore
 
 
 #Configuration Categories

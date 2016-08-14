@@ -1,10 +1,7 @@
 package com.miningmark48.dimensionalores;
 
 import com.miningmark48.dimensionalores.handler.ConfigurationHandler;
-import com.miningmark48.dimensionalores.init.Recipes;
-import com.miningmark48.dimensionalores.init.ModBlocks;
-import com.miningmark48.dimensionalores.init.ModItems;
-import com.miningmark48.dimensionalores.init.WorldGen;
+import com.miningmark48.dimensionalores.init.*;
 import com.miningmark48.dimensionalores.proxy.CommonProxy;
 import com.miningmark48.dimensionalores.reference.Reference;
 import com.miningmark48.dimensionalores.utility.LogHelper;
@@ -47,6 +44,8 @@ public class DimensionalOres {
         GameRegistry.registerWorldGenerator(new WorldGen(), 0);
 
         Recipes.init();
+
+        ModOreDict.registerOreNames();
 
         LogHelper.info(Translate.toLocal("log.info.init"));
 
