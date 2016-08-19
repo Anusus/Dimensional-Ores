@@ -36,6 +36,9 @@ public class ModBlocks {
     public static Block nether_cobalt;
     public static Block end_cobalt;
     public static Block overworld_cobalt;
+    public static Block nether_copper;
+    public static Block end_copper;
+    public static Block overworld_copper;
     public static Block nether_lead;
     public static Block end_lead;
     public static Block overworld_lead;
@@ -48,6 +51,12 @@ public class ModBlocks {
     public static Block nether_titanium;
     public static Block end_titanium;
     public static Block overworld_titanium;
+    public static Block nether_uranium;
+    public static Block end_uranium;
+    public static Block overworld_uranium;
+    public static Block nether_zinc;
+    public static Block end_zinc;
+    public static Block overworld_zinc;
 
     public static void init(){
         nether_coal = new BlockDimCoalOre().setUnlocalizedName("nether_coal").setRegistryName("nether_coal").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
@@ -72,6 +81,9 @@ public class ModBlocks {
         nether_cobalt = new BlockDimCobaltOre().setUnlocalizedName("nether_cobalt").setRegistryName("nether_cobalt").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         end_cobalt = new BlockDimCobaltOre().setUnlocalizedName("end_cobalt").setRegistryName("end_cobalt").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         overworld_cobalt = new BlockDimCobaltOre().setUnlocalizedName("overworld_cobalt").setRegistryName("overworld_cobalt").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_copper = new BlockDimCopperOre().setUnlocalizedName("nether_copper").setRegistryName("nether_copper").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_copper = new BlockDimCopperOre().setUnlocalizedName("end_copper").setRegistryName("end_copper").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_copper = new BlockDimCopperOre().setUnlocalizedName("overworld_copper").setRegistryName("overworld_copper").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         nether_lead = new BlockDimLeadOre().setUnlocalizedName("nether_lead").setRegistryName("nether_lead").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         end_lead = new BlockDimLeadOre().setUnlocalizedName("end_lead").setRegistryName("end_lead").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         overworld_lead = new BlockDimLeadOre().setUnlocalizedName("overworld_lead").setRegistryName("overworld_lead").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
@@ -84,6 +96,12 @@ public class ModBlocks {
         nether_titanium = new BlockDimTitaniumOre().setUnlocalizedName("nether_titanium").setRegistryName("nether_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         end_titanium = new BlockDimTitaniumOre().setUnlocalizedName("end_titanium").setRegistryName("end_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         overworld_titanium = new BlockDimTitaniumOre().setUnlocalizedName("overworld_titanium").setRegistryName("overworld_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_uranium = new BlockDimUraniumOre().setUnlocalizedName("nether_uranium").setRegistryName("nether_uranium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_uranium = new BlockDimUraniumOre().setUnlocalizedName("end_uranium").setRegistryName("end_uranium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_uranium = new BlockDimUraniumOre().setUnlocalizedName("overworld_uranium").setRegistryName("overworld_uranium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_zinc = new BlockDimZincOre().setUnlocalizedName("nether_zinc").setRegistryName("nether_zinc").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_zinc = new BlockDimZincOre().setUnlocalizedName("end_zinc").setRegistryName("end_zinc").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_zinc = new BlockDimZincOre().setUnlocalizedName("overworld_zinc").setRegistryName("overworld_zinc").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
     }
 
     public static void register(){
@@ -98,10 +116,13 @@ public class ModBlocks {
 
             registerBlock(nether_aluminium);
             registerBlock(nether_cobalt);
+            registerBlock(nether_copper);
             registerBlock(nether_lead);
             registerBlock(nether_silver);
             registerBlock(nether_sulfur);
             registerBlock(nether_titanium);
+            registerBlock(nether_uranium);
+            registerBlock(nether_zinc);
         }
         if (ConfigurationHandler.add_end_ores){
             registerBlock(end_coal);
@@ -115,20 +136,26 @@ public class ModBlocks {
 
             registerBlock(end_aluminium);
             registerBlock(end_cobalt);
+            registerBlock(end_copper);
             registerBlock(end_lead);
             registerBlock(end_silver);
             registerBlock(end_sulfur);
             registerBlock(end_titanium);
+            registerBlock(end_uranium);
+            registerBlock(end_zinc);
         }
         if (ConfigurationHandler.add_overworld_ores){
             registerBlock(overworld_quartz);
 
             registerBlock(overworld_aluminium);
             registerBlock(overworld_cobalt);
+            registerBlock(overworld_copper);
             registerBlock(overworld_lead);
             registerBlock(overworld_silver);
             registerBlock(overworld_sulfur);
             registerBlock(overworld_titanium);
+            registerBlock(overworld_uranium);
+            registerBlock(overworld_zinc);
         }
     }
 
@@ -156,6 +183,9 @@ public class ModBlocks {
         registerRender(nether_cobalt);
         registerRender(end_cobalt);
         registerRender(overworld_cobalt);
+        registerRender(nether_copper);
+        registerRender(end_copper);
+        registerRender(overworld_copper);
         registerRender(nether_lead);
         registerRender(end_lead);
         registerRender(overworld_lead);
@@ -168,6 +198,13 @@ public class ModBlocks {
         registerRender(nether_titanium);
         registerRender(end_titanium);
         registerRender(overworld_titanium);
+        registerRender(nether_uranium);
+        registerRender(end_uranium);
+        registerRender(overworld_uranium);
+        registerRender(nether_zinc);
+        registerRender(end_zinc);
+        registerRender(overworld_zinc);
+
     }
 
     private static void registerBlock(Block block){

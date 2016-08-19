@@ -51,7 +51,7 @@ If any issues are found within this mod, they can be posted on the issue tracker
 ***
 
 ## Credits
-* MiningMark48 for code, textures.
+* MiningMark48 for code.
 * Codyrule040 for textures.
 
 ***

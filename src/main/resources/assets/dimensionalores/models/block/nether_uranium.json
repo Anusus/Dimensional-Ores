@@ -1,0 +1,7 @@
+{
+    "parent": "dimensionalores:block/layered_ore",
+    "textures": {
+          "ore": "dimensionalores:blocks/uranium_ore_overlay",
+          "base": "blocks/netherrack"
+        }
+}
