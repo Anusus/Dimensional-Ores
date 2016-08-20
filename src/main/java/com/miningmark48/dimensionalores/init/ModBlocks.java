@@ -106,56 +106,142 @@ public class ModBlocks {
 
     public static void register(){
         if (ConfigurationHandler.add_nether_ores){
-            registerBlock(nether_coal);
-            registerBlock(nether_iron);
-            registerBlock(nether_gold);
-            registerBlock(nether_diamond);
-            registerBlock(nether_emerald);
-            registerBlock(nether_lapis);
-            registerBlock(nether_redstone);
+            if(ConfigurationHandler.add_nether_coal) {
+                registerBlock(nether_coal);
+            }
+            if(ConfigurationHandler.add_nether_iron) {
+                registerBlock(nether_iron);
+            }
+            if(ConfigurationHandler.add_nether_gold) {
+                registerBlock(nether_gold);
+            }
+            if(ConfigurationHandler.add_nether_diamond) {
+                registerBlock(nether_diamond);
+            }
+            if(ConfigurationHandler.add_nether_emerald) {
+                registerBlock(nether_emerald);
+            }
+            if(ConfigurationHandler.add_nether_lapis) {
+                registerBlock(nether_lapis);
+            }
+            if(ConfigurationHandler.add_nether_redstone) {
+                registerBlock(nether_redstone);
+            }
 
-            registerBlock(nether_aluminium);
-            registerBlock(nether_cobalt);
-            registerBlock(nether_copper);
-            registerBlock(nether_lead);
-            registerBlock(nether_silver);
-            registerBlock(nether_sulfur);
-            registerBlock(nether_titanium);
-            registerBlock(nether_uranium);
-            registerBlock(nether_zinc);
+            if(ConfigurationHandler.add_nether_aluminium) {
+                registerBlock(nether_aluminium);
+            }
+            if(ConfigurationHandler.add_nether_cobalt) {
+                registerBlock(nether_cobalt);
+            }
+            if(ConfigurationHandler.add_nether_copper) {
+                registerBlock(nether_copper);
+            }
+            if(ConfigurationHandler.add_nether_lead) {
+                registerBlock(nether_lead);
+            }
+            if(ConfigurationHandler.add_nether_silver) {
+                registerBlock(nether_silver);
+            }
+            if(ConfigurationHandler.add_nether_sulfur) {
+                registerBlock(nether_sulfur);
+            }
+            if(ConfigurationHandler.add_nether_titanium) {
+                registerBlock(nether_titanium);
+            }
+            if(ConfigurationHandler.add_nether_uranium) {
+                registerBlock(nether_uranium);
+            }
+            if(ConfigurationHandler.add_nether_zinc) {
+                registerBlock(nether_zinc);
+            }
         }
         if (ConfigurationHandler.add_end_ores){
-            registerBlock(end_coal);
-            registerBlock(end_iron);
-            registerBlock(end_gold);
-            registerBlock(end_diamond);
-            registerBlock(end_emerald);
-            registerBlock(end_lapis);
-            registerBlock(end_redstone);
-            registerBlock(end_quartz);
+            if(ConfigurationHandler.add_end_coal) {
+                registerBlock(end_coal);
+            }
+            if(ConfigurationHandler.add_end_iron) {
+                registerBlock(end_iron);
+            }
+            if(ConfigurationHandler.add_end_gold) {
+                registerBlock(end_gold);
+            }
+            if(ConfigurationHandler.add_end_diamond) {
+                registerBlock(end_diamond);
+            }
+            if(ConfigurationHandler.add_end_emerald) {
+                registerBlock(end_emerald);
+            }
+            if(ConfigurationHandler.add_end_lapis) {
+                registerBlock(end_lapis);
+            }
+            if(ConfigurationHandler.add_end_redstone) {
+                registerBlock(end_redstone);
+            }
 
-            registerBlock(end_aluminium);
-            registerBlock(end_cobalt);
-            registerBlock(end_copper);
-            registerBlock(end_lead);
-            registerBlock(end_silver);
-            registerBlock(end_sulfur);
-            registerBlock(end_titanium);
-            registerBlock(end_uranium);
-            registerBlock(end_zinc);
+            if(ConfigurationHandler.add_end_aluminium) {
+                registerBlock(end_aluminium);
+            }
+            if(ConfigurationHandler.add_end_cobalt) {
+                registerBlock(end_cobalt);
+            }
+            if(ConfigurationHandler.add_end_copper) {
+                registerBlock(end_copper);
+            }
+            if(ConfigurationHandler.add_end_lead) {
+                registerBlock(end_lead);
+            }
+            if(ConfigurationHandler.add_end_quartz) {
+                registerBlock(end_quartz);
+            }
+            if(ConfigurationHandler.add_end_silver) {
+                registerBlock(end_silver);
+            }
+            if(ConfigurationHandler.add_end_sulfur) {
+                registerBlock(end_sulfur);
+            }
+            if(ConfigurationHandler.add_end_titanium) {
+                registerBlock(end_titanium);
+            }
+            if(ConfigurationHandler.add_end_uranium) {
+                registerBlock(end_uranium);
+            }
+            if(ConfigurationHandler.add_end_zinc) {
+                registerBlock(end_zinc);
+            }
         }
         if (ConfigurationHandler.add_overworld_ores){
-            registerBlock(overworld_quartz);
+            if(ConfigurationHandler.add_overworld_quartz) {
+                registerBlock(overworld_quartz);
+            }
 
-            registerBlock(overworld_aluminium);
-            registerBlock(overworld_cobalt);
-            registerBlock(overworld_copper);
-            registerBlock(overworld_lead);
-            registerBlock(overworld_silver);
-            registerBlock(overworld_sulfur);
-            registerBlock(overworld_titanium);
-            registerBlock(overworld_uranium);
-            registerBlock(overworld_zinc);
+            if(ConfigurationHandler.add_overworld_aluminium) {
+                registerBlock(overworld_aluminium);
+            }
+            if(ConfigurationHandler.add_overworld_cobalt) {
+                registerBlock(overworld_cobalt);
+            }
+            if(ConfigurationHandler.add_overworld_copper) {
+                registerBlock(overworld_copper);
+            }
+            if(ConfigurationHandler.add_overworld_lead) {
+                registerBlock(overworld_lead);
+            }
+            if(ConfigurationHandler.add_overworld_silver) {
+                registerBlock(overworld_silver);
+            }
+            if(ConfigurationHandler.add_overworld_sulfur) {
+                registerBlock(overworld_sulfur);
+            }
+            if(ConfigurationHandler.add_overworld_titanium) {
+                registerBlock(overworld_titanium);
+            }
+            if(ConfigurationHandler.add_overworld_uranium) {
+                registerBlock(overworld_uranium);
+            }
+            if(ConfigurationHandler.add_overworld_zinc) {
+                registerBlock(overworld_zinc);
+            }
         }
     }
 
