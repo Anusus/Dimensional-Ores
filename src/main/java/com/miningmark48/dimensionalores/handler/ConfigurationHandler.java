@@ -32,6 +32,9 @@ public class ConfigurationHandler {
     public static boolean add_nether_titanium;
     public static boolean add_nether_uranium;
     public static boolean add_nether_zinc;
+    
+    public static boolean nether_ores_world_gen;
+    
 
     public static boolean add_end_aluminium;
     public static boolean add_end_coal;
@@ -51,6 +54,9 @@ public class ConfigurationHandler {
     public static boolean add_end_uranium;
     public static boolean add_end_zinc;
 
+    public static boolean end_ores_world_gen;
+    
+
     public static boolean add_overworld_aluminium;
     public static boolean add_overworld_cobalt;
     public static boolean add_overworld_copper;
@@ -61,6 +67,8 @@ public class ConfigurationHandler {
     public static boolean add_overworld_titanium;
     public static boolean add_overworld_uranium;
     public static boolean add_overworld_zinc;
+
+    public static boolean overworld_ores_world_gen;
 
     public static void init(File configFile){
 
@@ -87,6 +95,11 @@ public class ConfigurationHandler {
         configuration.addCustomCategoryComment(Translate.toLocal("config.category.nether_ores.title"), Translate.toLocal("config.category.nether_ores.desc"));
         configuration.addCustomCategoryComment(Translate.toLocal("config.category.end_ores.title"), Translate.toLocal("config.category.end_ores.desc"));
         configuration.addCustomCategoryComment(Translate.toLocal("config.category.overworld_ores.title"), Translate.toLocal("config.category.overworld_ores.desc"));
+        configuration.addCustomCategoryComment(Translate.toLocal("config.category.nether_ores_world_gen.title"), Translate.toLocal("config.category.nether_ores_world_gen.desc"));
+        configuration.addCustomCategoryComment(Translate.toLocal("config.category.end_ores_world_gen.title"), Translate.toLocal("config.category.end_ores_world_gen.desc"));
+        configuration.addCustomCategoryComment(Translate.toLocal("config.category.overworld_ores_world_gen.title"), Translate.toLocal("config.category.overworld_ores_world_gen.desc"));
+
+
 
         configuration.setCategoryRequiresMcRestart(Translate.toLocal("config.category.nether_ores.title"), true);
         configuration.setCategoryRequiresMcRestart(Translate.toLocal("config.category.end_ores.title"), true);
@@ -110,6 +123,8 @@ public class ConfigurationHandler {
         add_nether_titanium = configuration.getBoolean(Translate.toLocal("config.add_nether_titanium.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_titanium.desc"));
         add_nether_uranium = configuration.getBoolean(Translate.toLocal("config.add_nether_uranium.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_uranium.desc"));
         add_nether_zinc = configuration.getBoolean(Translate.toLocal("config.add_nether_zinc.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_zinc.desc"));
+
+        nether_ores_world_gen = configuration.getBoolean(Translate.toLocal("config.nether_ores_world_gen.title"), Translate.toLocal("config.category.nether_ores_world_gen.title"), true, Translate.toLocal("config.nether_ores_world_gen.desc"));
         
         //End
         add_end_ores = configuration.getBoolean(Translate.toLocal("config.add_end_ores.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_ores.desc"));
@@ -130,6 +145,8 @@ public class ConfigurationHandler {
         add_end_titanium = configuration.getBoolean(Translate.toLocal("config.add_end_titanium.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_titanium.desc"));
         add_end_uranium = configuration.getBoolean(Translate.toLocal("config.add_end_uranium.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_uranium.desc"));
         add_end_zinc = configuration.getBoolean(Translate.toLocal("config.add_end_zinc.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_zinc.desc"));
+
+        end_ores_world_gen = configuration.getBoolean(Translate.toLocal("config.end_ores_world_gen.title"), Translate.toLocal("config.category.end_ores_world_gen.title"), true, Translate.toLocal("config.end_ores_world_gen.desc"));
         
         //Overworld
         add_overworld_ores = configuration.getBoolean(Translate.toLocal("config.add_overworld_ores.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_ores.desc"));
@@ -143,6 +160,8 @@ public class ConfigurationHandler {
         add_overworld_titanium = configuration.getBoolean(Translate.toLocal("config.add_overworld_titanium.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_titanium.desc"));
         add_overworld_uranium = configuration.getBoolean(Translate.toLocal("config.add_overworld_uranium.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_uranium.desc"));
         add_overworld_zinc = configuration.getBoolean(Translate.toLocal("config.add_overworld_zinc.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_zinc.desc"));
+
+        overworld_ores_world_gen = configuration.getBoolean(Translate.toLocal("config.overworld_ores_world_gen.title"), Translate.toLocal("config.category.overworld_ores_world_gen.title"), true, Translate.toLocal("config.overworld_ores_world_gen.desc"));
         
         
         

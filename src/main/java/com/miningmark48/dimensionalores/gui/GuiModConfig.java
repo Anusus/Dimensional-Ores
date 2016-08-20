@@ -17,7 +17,10 @@ public class GuiModConfig extends GuiConfig {
                         new ConfigElement(ConfigurationHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)),
                         new ConfigElement(ConfigurationHandler.configuration.getCategory(Translate.toLocal("config.category.nether_ores.title").toLowerCase())),
                         new ConfigElement(ConfigurationHandler.configuration.getCategory(Translate.toLocal("config.category.end_ores.title").toLowerCase())),
-                        new ConfigElement(ConfigurationHandler.configuration.getCategory(Translate.toLocal("config.category.overworld_ores.title").toLowerCase()))
+                        new ConfigElement(ConfigurationHandler.configuration.getCategory(Translate.toLocal("config.category.overworld_ores.title").toLowerCase())),
+                        new ConfigElement(ConfigurationHandler.configuration.getCategory(Translate.toLocal("config.category.overworld_ores_world_gen.title").toLowerCase())),
+                        new ConfigElement(ConfigurationHandler.configuration.getCategory(Translate.toLocal("config.category.end_ores_world_gen.title").toLowerCase())),
+                        new ConfigElement(ConfigurationHandler.configuration.getCategory(Translate.toLocal("config.category.nether_ores_world_gen.title").toLowerCase()))
                 }),
                 Reference.MOD_ID,
                 false,

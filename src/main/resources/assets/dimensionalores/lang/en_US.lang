@@ -57,6 +57,13 @@ config.category.end_ores.desc=Ores for The End.
 config.category.overworld_ores.title=Overworld Ores
 config.category.overworld_ores.desc=Ores for the overworld.
 
+config.category.nether_ores_world_gen.title=Nether Ores World Gen
+config.category.nether_ores_world_gen.desc=World Generator for the Ores in the Nether.
+config.category.end_ores_world_gen.title=End Ores World Gen
+config.category.end_ores_world_gen.desc=World Generator for the Ores in The End.
+config.category.overworld_ores_world_gen.title=Overworld Ores World Gen
+config.category.overworld_ores_world_gen.desc=World Generator for the Ores in the overworld.
+
 #Configuration Settings
 config.add_nether_ores.title=Add Nether Ores
 config.add_nether_ores.desc=Should the Nether Ores be added?
@@ -64,7 +71,7 @@ config.add_end_ores.title=Add End Ores
 config.add_end_ores.desc=Should the End Ores be added?
 config.add_overworld_ores.title=Add Overworld Ores
 config.add_overworld_ores.desc=Should the Overworld Ores be added?
-
+#Nether
 config.add_nether_aluminium.title=Nether Aluminium Ore
 config.add_nether_aluminium.desc=Should this ore be added?
 config.add_nether_coal.title=Nether Coal Ore
@@ -97,7 +104,9 @@ config.add_nether_uranium.title=Nether Uranium Ore
 config.add_nether_uranium.desc=Should this ore be added?
 config.add_nether_zinc.title=Nether Zinc Ore
 config.add_nether_zinc.desc=Should this ore be added?
-
+config.nether_ores_world_gen.title=Nether Ores World Gen
+config.nether_ores_world_gen.desc=Should nether ores be generated?
+#End
 config.add_end_aluminium.title=End Aluminium Ore
 config.add_end_aluminium.desc=Should this ore be added?
 config.add_end_coal.title=End Coal Ore
@@ -132,7 +141,9 @@ config.add_end_uranium.title=End Uranium Ore
 config.add_end_uranium.desc=Should this ore be added?
 config.add_end_zinc.title=End Zinc Ore
 config.add_end_zinc.desc=Should this ore be added?
-
+config.end_ores_world_gen.title=End Ores World Gen
+config.end_ores_world_gen.desc=Should end ores be generated?
+#Overworld
 config.add_overworld_aluminium.title=Aluminium Ore
 config.add_overworld_aluminium.desc=Should this ore be added?
 config.add_overworld_cobalt.title=Cobalt Ore
@@ -155,3 +166,5 @@ config.add_overworld_uranium.title=Uranium Ore
 config.add_overworld_uranium.desc=Should this ore be added?
 config.add_overworld_zinc.title=Zinc Ore
 config.add_overworld_zinc.desc=Should this ore be added?
+config.overworld_ores_world_gen.title=Overworld Ores World Gen
+config.overworld_ores_world_gen.desc=Should overword ores be generated?
