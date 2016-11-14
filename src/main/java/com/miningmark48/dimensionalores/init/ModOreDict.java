@@ -26,6 +26,9 @@ public class ModOreDict{
         OreDictionary.registerOre("oreSulfur", ModBlocks.nether_sulfur);
         OreDictionary.registerOre("oreSulfur", ModBlocks.end_sulfur);
         OreDictionary.registerOre("oreSulfur", ModBlocks.overworld_sulfur);
+        OreDictionary.registerOre("oreTin", ModBlocks.nether_tin);
+        OreDictionary.registerOre("oreTin", ModBlocks.end_tin);
+        OreDictionary.registerOre("oreTin", ModBlocks.overworld_tin);
         OreDictionary.registerOre("oreTitanium", ModBlocks.nether_titanium);
         OreDictionary.registerOre("oreTitanium", ModBlocks.end_titanium);
         OreDictionary.registerOre("oreTitanium", ModBlocks.overworld_titanium);
@@ -35,6 +38,16 @@ public class ModOreDict{
         OreDictionary.registerOre("oreZinc", ModBlocks.nether_zinc);
         OreDictionary.registerOre("oreZinc", ModBlocks.end_zinc);
         OreDictionary.registerOre("oreZinc", ModBlocks.overworld_zinc);
+
+        OreDictionary.registerOre("ingotAluminium", ModItems.ingot_aluminium);
+        OreDictionary.registerOre("ingotCobalt", ModItems.ingot_cobalt);
+        OreDictionary.registerOre("ingotCopper", ModItems.ingot_copper);
+        OreDictionary.registerOre("ingotLead", ModItems.ingot_lead);
+        OreDictionary.registerOre("ingotSilver", ModItems.ingot_silver);
+        OreDictionary.registerOre("ingotTin", ModItems.ingot_tin);
+        OreDictionary.registerOre("ingotTitanium", ModItems.ingot_titanium);
+        OreDictionary.registerOre("ingotUranium", ModItems.ingot_uranium);
+        OreDictionary.registerOre("ingotZinc", ModItems.ingot_zinc);
 
     }
 

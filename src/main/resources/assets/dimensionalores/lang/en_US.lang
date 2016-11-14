@@ -2,6 +2,15 @@
 itemGroup.dimensionalores=Dimensional Ores
 
 #Items
+item.ingot_aluminium.name=Aluminium Ingot
+item.ingot_cobalt.name=Cobalt Ingot
+item.ingot_copper.name=Copper Ingot
+item.ingot_lead.name=Lead Ingot
+item.ingot_silver.name=Silver Ingot
+item.ingot_tin.name=Tin Ingot
+item.ingot_titanium.name=Titanium Ingot
+item.ingot_uranium.name=Uranium Ingot
+item.ingot_zinc.name=Zinc Ingot
 
 #Blocks
 tile.nether_coal.name=Nether Coal Ore
@@ -38,6 +47,9 @@ tile.overworld_silver.name=Silver Ore
 tile.nether_sulfur.name=Nether Sulfur Ore
 tile.end_sulfur.name=End Sulfur Ore
 tile.overworld_sulfur.name=Sulfur Ore
+tile.nether_tin.name=Nether Tin Ore
+tile.end_tin.name=End Tin Ore
+tile.overworld_tin.name=Tin Ore
 tile.nether_titanium.name=Nether Titanium Ore
 tile.end_titanium.name=End Titanium Ore
 tile.overworld_titanium.name=Titanium Ore

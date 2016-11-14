@@ -49,6 +49,7 @@ public class WorldGen implements IWorldGenerator{
             generateOre(ModBlocks.nether_lead, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.NETHERRACK);
             generateOre(ModBlocks.nether_silver, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.NETHERRACK);
             generateOre(ModBlocks.nether_sulfur, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.NETHERRACK);
+            generateOre(ModBlocks.nether_tin, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.NETHERRACK);
             generateOre(ModBlocks.nether_titanium, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.NETHERRACK);
             generateOre(ModBlocks.nether_uranium, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.NETHERRACK);
             generateOre(ModBlocks.nether_zinc, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.NETHERRACK);
@@ -66,6 +67,7 @@ public class WorldGen implements IWorldGenerator{
             generateOre(ModBlocks.overworld_lead, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.STONE);
             generateOre(ModBlocks.overworld_silver, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.STONE);
             generateOre(ModBlocks.overworld_sulfur, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.STONE);
+            generateOre(ModBlocks.overworld_tin, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.STONE);
             generateOre(ModBlocks.overworld_titanium, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.STONE);
             generateOre(ModBlocks.overworld_uranium, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.STONE);
             generateOre(ModBlocks.overworld_zinc, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.STONE);
@@ -91,6 +93,7 @@ public class WorldGen implements IWorldGenerator{
             generateOre(ModBlocks.end_lead, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.END_STONE);
             generateOre(ModBlocks.end_silver, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.END_STONE);
             generateOre(ModBlocks.end_sulfur, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.END_STONE);
+            generateOre(ModBlocks.end_tin, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.END_STONE);
             generateOre(ModBlocks.end_titanium, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.END_STONE);
             generateOre(ModBlocks.end_uranium, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.END_STONE);
             generateOre(ModBlocks.end_zinc, world, rand, x, z, 2, 9, 20, 0, 64, Blocks.END_STONE);

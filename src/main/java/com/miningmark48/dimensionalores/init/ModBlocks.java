@@ -48,6 +48,9 @@ public class ModBlocks {
     public static Block nether_sulfur;
     public static Block end_sulfur;
     public static Block overworld_sulfur;
+    public static Block nether_tin;
+    public static Block end_tin;
+    public static Block overworld_tin;
     public static Block nether_titanium;
     public static Block end_titanium;
     public static Block overworld_titanium;
@@ -93,6 +96,9 @@ public class ModBlocks {
         nether_sulfur = new BlockDimSulfurOre().setUnlocalizedName("nether_sulfur").setRegistryName("nether_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         end_sulfur = new BlockDimSulfurOre().setUnlocalizedName("end_sulfur").setRegistryName("end_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         overworld_sulfur = new BlockDimSulfurOre().setUnlocalizedName("overworld_sulfur").setRegistryName("overworld_sulfur").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        nether_tin = new BlockDimTinOre().setUnlocalizedName("nether_tin").setRegistryName("nether_tin").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        end_tin = new BlockDimTinOre().setUnlocalizedName("end_tin").setRegistryName("end_tin").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        overworld_tin = new BlockDimTinOre().setUnlocalizedName("overworld_tin").setRegistryName("overworld_tin").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         nether_titanium = new BlockDimTitaniumOre().setUnlocalizedName("nether_titanium").setRegistryName("nether_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         end_titanium = new BlockDimTitaniumOre().setUnlocalizedName("end_titanium").setRegistryName("end_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         overworld_titanium = new BlockDimTitaniumOre().setUnlocalizedName("overworld_titanium").setRegistryName("overworld_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
@@ -145,6 +151,9 @@ public class ModBlocks {
             }
             if(ConfigurationHandler.add_nether_sulfur) {
                 registerBlock(nether_sulfur);
+            }
+            if(ConfigurationHandler.add_nether_tin) {
+                registerBlock(nether_tin);
             }
             if(ConfigurationHandler.add_nether_titanium) {
                 registerBlock(nether_titanium);
@@ -200,6 +209,9 @@ public class ModBlocks {
             if(ConfigurationHandler.add_end_sulfur) {
                 registerBlock(end_sulfur);
             }
+            if(ConfigurationHandler.add_end_tin) {
+                registerBlock(end_tin);
+            }
             if(ConfigurationHandler.add_end_titanium) {
                 registerBlock(end_titanium);
             }
@@ -232,6 +244,9 @@ public class ModBlocks {
             }
             if(ConfigurationHandler.add_overworld_sulfur) {
                 registerBlock(overworld_sulfur);
+            }
+            if(ConfigurationHandler.add_overworld_tin) {
+                registerBlock(overworld_tin);
             }
             if(ConfigurationHandler.add_overworld_titanium) {
                 registerBlock(overworld_titanium);
@@ -281,6 +296,9 @@ public class ModBlocks {
         registerRender(nether_sulfur);
         registerRender(end_sulfur);
         registerRender(overworld_sulfur);
+        registerRender(nether_tin);
+        registerRender(end_tin);
+        registerRender(overworld_tin);
         registerRender(nether_titanium);
         registerRender(end_titanium);
         registerRender(overworld_titanium);

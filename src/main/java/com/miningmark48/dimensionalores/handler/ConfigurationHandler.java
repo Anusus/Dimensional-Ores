@@ -29,6 +29,7 @@ public class ConfigurationHandler {
     public static boolean add_nether_redstone;
     public static boolean add_nether_silver;
     public static boolean add_nether_sulfur;
+    public static boolean add_nether_tin;
     public static boolean add_nether_titanium;
     public static boolean add_nether_uranium;
     public static boolean add_nether_zinc;
@@ -50,6 +51,7 @@ public class ConfigurationHandler {
     public static boolean add_end_redstone;
     public static boolean add_end_silver;
     public static boolean add_end_sulfur;
+    public static boolean add_end_tin;
     public static boolean add_end_titanium;
     public static boolean add_end_uranium;
     public static boolean add_end_zinc;
@@ -64,6 +66,7 @@ public class ConfigurationHandler {
     public static boolean add_overworld_quartz;
     public static boolean add_overworld_silver;
     public static boolean add_overworld_sulfur;
+    public static boolean add_overworld_tin;
     public static boolean add_overworld_titanium;
     public static boolean add_overworld_uranium;
     public static boolean add_overworld_zinc;
@@ -120,6 +123,7 @@ public class ConfigurationHandler {
         add_nether_redstone = configuration.getBoolean(Translate.toLocal("config.add_nether_redstone.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_redstone.desc"));
         add_nether_silver = configuration.getBoolean(Translate.toLocal("config.add_nether_silver.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_silver.desc"));
         add_nether_sulfur = configuration.getBoolean(Translate.toLocal("config.add_nether_sulfur.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_sulfur.desc"));
+        add_nether_tin = configuration.getBoolean(Translate.toLocal("config.add_nether_tin.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_tin.desc"));
         add_nether_titanium = configuration.getBoolean(Translate.toLocal("config.add_nether_titanium.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_titanium.desc"));
         add_nether_uranium = configuration.getBoolean(Translate.toLocal("config.add_nether_uranium.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_uranium.desc"));
         add_nether_zinc = configuration.getBoolean(Translate.toLocal("config.add_nether_zinc.title"), Translate.toLocal("config.category.nether_ores.title"), true, Translate.toLocal("config.add_nether_zinc.desc"));
@@ -142,6 +146,7 @@ public class ConfigurationHandler {
         add_end_redstone = configuration.getBoolean(Translate.toLocal("config.add_end_redstone.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_redstone.desc"));
         add_end_silver = configuration.getBoolean(Translate.toLocal("config.add_end_silver.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_silver.desc"));
         add_end_sulfur = configuration.getBoolean(Translate.toLocal("config.add_end_sulfur.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_sulfur.desc"));
+        add_end_tin = configuration.getBoolean(Translate.toLocal("config.add_end_tin.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_tin.desc"));
         add_end_titanium = configuration.getBoolean(Translate.toLocal("config.add_end_titanium.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_titanium.desc"));
         add_end_uranium = configuration.getBoolean(Translate.toLocal("config.add_end_uranium.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_uranium.desc"));
         add_end_zinc = configuration.getBoolean(Translate.toLocal("config.add_end_zinc.title"), Translate.toLocal("config.category.end_ores.title"), true, Translate.toLocal("config.add_end_zinc.desc"));
@@ -157,6 +162,7 @@ public class ConfigurationHandler {
         add_overworld_quartz = configuration.getBoolean(Translate.toLocal("config.add_overworld_quartz.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_quartz.desc"));
         add_overworld_silver = configuration.getBoolean(Translate.toLocal("config.add_overworld_silver.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_silver.desc"));
         add_overworld_sulfur = configuration.getBoolean(Translate.toLocal("config.add_overworld_sulfur.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_sulfur.desc"));
+        add_overworld_tin = configuration.getBoolean(Translate.toLocal("config.add_overworld_tin.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_tin.desc"));
         add_overworld_titanium = configuration.getBoolean(Translate.toLocal("config.add_overworld_titanium.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_titanium.desc"));
         add_overworld_uranium = configuration.getBoolean(Translate.toLocal("config.add_overworld_uranium.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_uranium.desc"));
         add_overworld_zinc = configuration.getBoolean(Translate.toLocal("config.add_overworld_zinc.title"), Translate.toLocal("config.category.overworld_ores.title"), true, Translate.toLocal("config.add_overworld_zinc.desc"));
