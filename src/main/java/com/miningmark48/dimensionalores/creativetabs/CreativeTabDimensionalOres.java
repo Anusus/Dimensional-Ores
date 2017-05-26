@@ -12,11 +12,11 @@ public class CreativeTabDimensionalOres {
 
     public static final CreativeTabs DO_Tab = new CreativeTabs(Reference.MOD_ID) {
         @Override
-        public Item getTabIconItem() {
+        public ItemStack getTabIconItem() {
             if (ConfigurationHandler.add_end_ores){
-                return new ItemStack(ModBlocks.end_diamond).getItem();
+                return new ItemStack(ModBlocks.end_diamond);
             }else {
-                return new ItemStack(Blocks.DIAMOND_ORE).getItem();
+                return new ItemStack(Blocks.DIAMOND_ORE);
             }
         }
     };
