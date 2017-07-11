@@ -6,6 +6,21 @@ public class ModOreDict{
 
     public static void registerOreNames(){
 
+        OreDictionary.registerOre("oreCoal", ModBlocks.nether_coal);
+        OreDictionary.registerOre("oreCoal", ModBlocks.end_coal);
+        OreDictionary.registerOre("oreIron", ModBlocks.nether_iron);
+        OreDictionary.registerOre("oreIron", ModBlocks.end_iron);
+        OreDictionary.registerOre("oreGold", ModBlocks.nether_gold);
+        OreDictionary.registerOre("oreGold", ModBlocks.end_gold);
+        OreDictionary.registerOre("oreRedstone", ModBlocks.nether_redstone);
+        OreDictionary.registerOre("oreRedstone", ModBlocks.end_redstone);
+        OreDictionary.registerOre("oreDiamond", ModBlocks.nether_diamond);
+        OreDictionary.registerOre("oreDiamond", ModBlocks.end_diamond);
+        OreDictionary.registerOre("oreEmerald", ModBlocks.nether_emerald);
+        OreDictionary.registerOre("oreEmerald", ModBlocks.end_emerald);
+        OreDictionary.registerOre("oreLapis", ModBlocks.nether_lapis);
+        OreDictionary.registerOre("oreLapis", ModBlocks.end_lapis);
+
         OreDictionary.registerOre("oreAluminium", ModBlocks.nether_aluminium);
         OreDictionary.registerOre("oreAluminium", ModBlocks.end_aluminium);
         OreDictionary.registerOre("oreAluminium", ModBlocks.overworld_aluminium);
