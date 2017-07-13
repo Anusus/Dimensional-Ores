@@ -3,17 +3,18 @@
 "modid": "dimensionalores",
 "name": "Dimensional Ores",
 "description": "Adds ores to The End and Nether.",
-"version": "0.0.4",
+"version": "1.0.0",
 "credits": "Codyrule040 for textures",
 "logoFile": "assets/dimensionalores/logo.png",
-"mcversion": "1.11.2",
+"mcversion": "1.12",
 "url": "",
 "updateUrl": "",
 "authorList": [ "MiningMark48", "Codyrule040" ],
 "parent":"",
 "screenshots": [],
 "dependencies": [
-"mod_MinecraftForge"
+  "mod_MinecraftForge",
+  "mininglib"
 ]
 }
 ]

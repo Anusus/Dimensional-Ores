@@ -7,6 +7,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
@@ -31,18 +33,6 @@ public class ModItems {
         ingot_titanium = new ItemIngot().setUnlocalizedName("ingot_titanium").setRegistryName("ingot_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         ingot_uranium = new ItemIngot().setUnlocalizedName("ingot_uranium").setRegistryName("ingot_uranium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
         ingot_zinc = new ItemIngot().setUnlocalizedName("ingot_zinc").setRegistryName("ingot_zinc").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-    }
-
-    public static void register(){
-        GameRegistry.register(ingot_aluminium);
-        GameRegistry.register(ingot_cobalt);
-        GameRegistry.register(ingot_copper);
-        GameRegistry.register(ingot_lead);
-        GameRegistry.register(ingot_silver);
-        GameRegistry.register(ingot_tin);
-        GameRegistry.register(ingot_titanium);
-        GameRegistry.register(ingot_uranium);
-        GameRegistry.register(ingot_zinc);
     }
 
     public static void registerRenders(){

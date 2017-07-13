@@ -10,11 +10,12 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLModIdMappingEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-@Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+@Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS, dependencies = Reference.DEPENDENCIES)
 public class DimensionalOres {
     @Mod.Instance(Reference.MOD_ID)
     public static DimensionalOres instance;
@@ -29,9 +30,9 @@ public class DimensionalOres {
         MinecraftForge.EVENT_BUS.register(new ConfigurationHandler());
 
         ModItems.init();
-        ModItems.register();
         ModBlocks.init();
-        ModBlocks.register();
+        ModRegistry.init();
+        MinecraftForge.EVENT_BUS.register(new ModRegistry());
 
         LogHelper.info(Translate.toLocal("log.info.preinit"));
     }
