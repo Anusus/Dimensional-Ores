@@ -9,6 +9,6 @@ public class Reference {
     public static final String SERVER_PROXY_CLASS = "com.miningmark48.dimensionalores.proxy.CommonProxy";
     public static final String GUI_FACTORY_CLASS = "com.miningmark48.dimensionalores.gui.GuiFactory";
 
-    public static final String DEPENDENCIES = "required-after: mininglib";
+    public static final String DEPENDENCIES = "required-after:mininglib";
 
 }
