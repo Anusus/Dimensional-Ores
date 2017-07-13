@@ -1,12 +1,13 @@
 package com.miningmark48.dimensionalores.blocks;
 
+import com.miningmark48.mininglib.base.block.ModBaseBlock;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class BlockDimUraniumOre extends BlockDOMod{
+public class BlockDimUraniumOre extends ModBaseBlock {
 
     public BlockDimUraniumOre(){
         super(Material.ROCK, MapColor.GRAY);

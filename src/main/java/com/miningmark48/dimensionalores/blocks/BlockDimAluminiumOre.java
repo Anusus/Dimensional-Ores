@@ -1,12 +1,13 @@
 package com.miningmark48.dimensionalores.blocks;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class BlockDimAluminiumOre extends BlockDOMod {
+public class BlockDimAluminiumOre extends Block {
 
     public BlockDimAluminiumOre() {
         super(Material.ROCK, MapColor.GRAY);

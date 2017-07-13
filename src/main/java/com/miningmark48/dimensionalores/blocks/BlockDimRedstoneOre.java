@@ -1,5 +1,6 @@
 package com.miningmark48.dimensionalores.blocks;
 
+import com.miningmark48.mininglib.base.block.ModBaseBlock;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -11,7 +12,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import java.util.Random;
 
-public class BlockDimRedstoneOre extends BlockDOMod{
+public class BlockDimRedstoneOre extends ModBaseBlock {
 
     public BlockDimRedstoneOre(){
         super(Material.ROCK, MapColor.GRAY);

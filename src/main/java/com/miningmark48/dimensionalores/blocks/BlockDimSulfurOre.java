@@ -1,6 +1,7 @@
 package com.miningmark48.dimensionalores.blocks;
 
 import com.miningmark48.dimensionalores.init.ModItems;
+import com.miningmark48.mininglib.base.block.ModBaseBlock;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -12,7 +13,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import java.util.Random;
 
-public class BlockDimSulfurOre extends BlockDOMod{
+public class BlockDimSulfurOre extends ModBaseBlock {
 
     public BlockDimSulfurOre(){
         super(Material.ROCK, MapColor.GRAY);

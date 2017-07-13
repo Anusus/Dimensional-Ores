@@ -4,13 +4,12 @@ import com.miningmark48.dimensionalores.handler.ConfigurationHandler;
 import com.miningmark48.dimensionalores.init.*;
 import com.miningmark48.dimensionalores.proxy.CommonProxy;
 import com.miningmark48.dimensionalores.reference.Reference;
-import com.miningmark48.dimensionalores.utility.LogHelper;
-import com.miningmark48.dimensionalores.utility.Translate;
+import com.miningmark48.mininglib.utility.ModLogger;
+import com.miningmark48.mininglib.utility.ModTranslate;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLModIdMappingEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -34,7 +33,7 @@ public class DimensionalOres {
         ModRegistry.init();
         MinecraftForge.EVENT_BUS.register(new ModRegistry());
 
-        LogHelper.info(Translate.toLocal("log.info.preinit"));
+        ModLogger.info(ModTranslate.toLocal("log.info.preinit"));
     }
 
     @Mod.EventHandler
@@ -48,13 +47,13 @@ public class DimensionalOres {
 
         ModOreDict.registerOreNames();
 
-        LogHelper.info(Translate.toLocal("log.info.init"));
+        ModLogger.info(ModTranslate.toLocal("log.info.init"));
 
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
 
-        LogHelper.info(Translate.toLocal("log.info.postinit"));
+        ModLogger.info(ModTranslate.toLocal("log.info.postinit"));
     }
 }

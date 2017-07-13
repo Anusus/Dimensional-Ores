@@ -1,10 +1,9 @@
 package com.miningmark48.dimensionalores.init;
 
 import com.miningmark48.dimensionalores.handler.ConfigurationHandler;
-import com.miningmark48.dimensionalores.items.ItemBlockBase;
+import com.miningmark48.mininglib.base.item.ModItemBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
@@ -196,7 +195,7 @@ public class ModRegistry {
 
     private static void registerBlock(Block block){
         blocksToRegister.add(block);
-        registerItem(new ItemBlockBase(block));
+        registerItem(new ModItemBlock(block));
     }
 
     private static void registerItem(Item item){

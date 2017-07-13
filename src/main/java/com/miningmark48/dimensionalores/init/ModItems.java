@@ -1,15 +1,11 @@
 package com.miningmark48.dimensionalores.init;
 
 import com.miningmark48.dimensionalores.creativetabs.CreativeTabDimensionalOres;
-import com.miningmark48.dimensionalores.items.ItemIngot;
 import com.miningmark48.dimensionalores.reference.Reference;
+import com.miningmark48.mininglib.base.item.ModBaseItem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 
@@ -24,15 +20,15 @@ public class ModItems {
     public static Item ingot_zinc;
 
     public static void init(){
-        ingot_aluminium = new ItemIngot().setUnlocalizedName("ingot_aluminium").setRegistryName("ingot_aluminium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-        ingot_cobalt = new ItemIngot().setUnlocalizedName("ingot_cobalt").setRegistryName("ingot_cobalt").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-        ingot_copper = new ItemIngot().setUnlocalizedName("ingot_copper").setRegistryName("ingot_copper").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-        ingot_lead = new ItemIngot().setUnlocalizedName("ingot_lead").setRegistryName("ingot_lead").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-        ingot_silver = new ItemIngot().setUnlocalizedName("ingot_silver").setRegistryName("ingot_silver").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-        ingot_tin = new ItemIngot().setUnlocalizedName("ingot_tin").setRegistryName("ingot_tin").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-        ingot_titanium = new ItemIngot().setUnlocalizedName("ingot_titanium").setRegistryName("ingot_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-        ingot_uranium = new ItemIngot().setUnlocalizedName("ingot_uranium").setRegistryName("ingot_uranium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
-        ingot_zinc = new ItemIngot().setUnlocalizedName("ingot_zinc").setRegistryName("ingot_zinc").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_aluminium = new ModBaseItem().setUnlocalizedName("ingot_aluminium").setRegistryName("ingot_aluminium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_cobalt = new ModBaseItem().setUnlocalizedName("ingot_cobalt").setRegistryName("ingot_cobalt").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_copper = new ModBaseItem().setUnlocalizedName("ingot_copper").setRegistryName("ingot_copper").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_lead = new ModBaseItem().setUnlocalizedName("ingot_lead").setRegistryName("ingot_lead").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_silver = new ModBaseItem().setUnlocalizedName("ingot_silver").setRegistryName("ingot_silver").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_tin = new ModBaseItem().setUnlocalizedName("ingot_tin").setRegistryName("ingot_tin").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_titanium = new ModBaseItem().setUnlocalizedName("ingot_titanium").setRegistryName("ingot_titanium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_uranium = new ModBaseItem().setUnlocalizedName("ingot_uranium").setRegistryName("ingot_uranium").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
+        ingot_zinc = new ModBaseItem().setUnlocalizedName("ingot_zinc").setRegistryName("ingot_zinc").setCreativeTab(CreativeTabDimensionalOres.DO_Tab);
     }
 
     public static void registerRenders(){
