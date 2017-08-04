@@ -56,7 +56,7 @@ public class ModRegistry {
                 registerBlock(ModBlocks.nether_redstone);
             }
 
-            if(ConfigurationHandler.add_nether_aluminium) {
+            if(ConfigurationHandler.add_nether_aluminum) {
                 registerBlock(ModBlocks.nether_aluminium);
             }
             if(ConfigurationHandler.add_nether_cobalt) {
@@ -110,7 +110,7 @@ public class ModRegistry {
                 registerBlock(ModBlocks.end_redstone);
             }
 
-            if(ConfigurationHandler.add_end_aluminium) {
+            if(ConfigurationHandler.add_end_aluminum) {
                 registerBlock(ModBlocks.end_aluminium);
             }
             if(ConfigurationHandler.add_end_cobalt) {
@@ -149,7 +149,7 @@ public class ModRegistry {
                 registerBlock(ModBlocks.overworld_quartz);
             }
 
-            if(ConfigurationHandler.add_overworld_aluminium) {
+            if(ConfigurationHandler.add_overworld_aluminum) {
                 registerBlock(ModBlocks.overworld_aluminium);
             }
             if(ConfigurationHandler.add_overworld_cobalt) {

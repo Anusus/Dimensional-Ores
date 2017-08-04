@@ -16,7 +16,7 @@ public class ConfigurationHandler {
     public static boolean add_end_ores;
     public static boolean add_overworld_ores;
     
-    public static boolean add_nether_aluminium;
+    public static boolean add_nether_aluminum;
     public static boolean add_nether_coal;
     public static boolean add_nether_cobalt;
     public static boolean add_nether_copper;
@@ -37,7 +37,7 @@ public class ConfigurationHandler {
     public static boolean nether_ores_world_gen;
     
 
-    public static boolean add_end_aluminium;
+    public static boolean add_end_aluminum;
     public static boolean add_end_coal;
     public static boolean add_end_cobalt;
     public static boolean add_end_copper;
@@ -59,7 +59,7 @@ public class ConfigurationHandler {
     public static boolean end_ores_world_gen;
     
 
-    public static boolean add_overworld_aluminium;
+    public static boolean add_overworld_aluminum;
     public static boolean add_overworld_cobalt;
     public static boolean add_overworld_copper;
     public static boolean add_overworld_lead;
@@ -110,7 +110,7 @@ public class ConfigurationHandler {
         
         //Nether
         add_nether_ores = configuration.getBoolean(ModTranslate.toLocal("config.add_nether_ores.title"), ModTranslate.toLocal("config.category.nether_ores.title"), true, ModTranslate.toLocal("config.add_nether_ores.desc"));
-        add_nether_aluminium = configuration.getBoolean(ModTranslate.toLocal("config.add_nether_aluminium.title"), ModTranslate.toLocal("config.category.nether_ores.title"), true, ModTranslate.toLocal("config.add_nether_aluminium.desc"));
+        add_nether_aluminum = configuration.getBoolean(ModTranslate.toLocal("config.add_nether_aluminum.title"), ModTranslate.toLocal("config.category.nether_ores.title"), true, ModTranslate.toLocal("config.add_nether_aluminum.desc"));
         add_nether_coal = configuration.getBoolean(ModTranslate.toLocal("config.add_nether_coal.title"), ModTranslate.toLocal("config.category.nether_ores.title"), true, ModTranslate.toLocal("config.add_nether_coal.desc"));
         add_nether_cobalt = configuration.getBoolean(ModTranslate.toLocal("config.add_nether_cobalt.title"), ModTranslate.toLocal("config.category.nether_ores.title"), true, ModTranslate.toLocal("config.add_nether_cobalt.desc"));
         add_nether_copper = configuration.getBoolean(ModTranslate.toLocal("config.add_nether_copper.title"), ModTranslate.toLocal("config.category.nether_ores.title"), true, ModTranslate.toLocal("config.add_nether_copper.desc"));
@@ -132,7 +132,7 @@ public class ConfigurationHandler {
         
         //End
         add_end_ores = configuration.getBoolean(ModTranslate.toLocal("config.add_end_ores.title"), ModTranslate.toLocal("config.category.end_ores.title"), true, ModTranslate.toLocal("config.add_end_ores.desc"));
-        add_end_aluminium = configuration.getBoolean(ModTranslate.toLocal("config.add_end_aluminium.title"), ModTranslate.toLocal("config.category.end_ores.title"), true, ModTranslate.toLocal("config.add_end_aluminium.desc"));
+        add_end_aluminum = configuration.getBoolean(ModTranslate.toLocal("config.add_end_aluminum.title"), ModTranslate.toLocal("config.category.end_ores.title"), true, ModTranslate.toLocal("config.add_end_aluminum.desc"));
         add_end_coal = configuration.getBoolean(ModTranslate.toLocal("config.add_end_coal.title"), ModTranslate.toLocal("config.category.end_ores.title"), true, ModTranslate.toLocal("config.add_end_coal.desc"));
         add_end_cobalt = configuration.getBoolean(ModTranslate.toLocal("config.add_end_cobalt.title"), ModTranslate.toLocal("config.category.end_ores.title"), true, ModTranslate.toLocal("config.add_end_cobalt.desc"));
         add_end_copper = configuration.getBoolean(ModTranslate.toLocal("config.add_end_copper.title"), ModTranslate.toLocal("config.category.end_ores.title"), true, ModTranslate.toLocal("config.add_end_copper.desc"));
@@ -155,7 +155,7 @@ public class ConfigurationHandler {
         
         //Overworld
         add_overworld_ores = configuration.getBoolean(ModTranslate.toLocal("config.add_overworld_ores.title"), ModTranslate.toLocal("config.category.overworld_ores.title"), true, ModTranslate.toLocal("config.add_overworld_ores.desc"));
-        add_overworld_aluminium = configuration.getBoolean(ModTranslate.toLocal("config.add_overworld_aluminium.title"), ModTranslate.toLocal("config.category.overworld_ores.title"), true, ModTranslate.toLocal("config.add_overworld_aluminium.desc"));
+        add_overworld_aluminum = configuration.getBoolean(ModTranslate.toLocal("config.add_overworld_aluminum.title"), ModTranslate.toLocal("config.category.overworld_ores.title"), true, ModTranslate.toLocal("config.add_overworld_aluminum.desc"));
         add_overworld_cobalt = configuration.getBoolean(ModTranslate.toLocal("config.add_overworld_cobalt.title"), ModTranslate.toLocal("config.category.overworld_ores.title"), true, ModTranslate.toLocal("config.add_overworld_cobalt.desc"));
         add_overworld_copper = configuration.getBoolean(ModTranslate.toLocal("config.add_overworld_copper.title"), ModTranslate.toLocal("config.category.overworld_ores.title"), true, ModTranslate.toLocal("config.add_overworld_copper.desc"));
         add_overworld_lead = configuration.getBoolean(ModTranslate.toLocal("config.add_overworld_lead.title"), ModTranslate.toLocal("config.category.overworld_ores.title"), true, ModTranslate.toLocal("config.add_overworld_lead.desc"));

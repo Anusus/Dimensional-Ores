@@ -2,7 +2,7 @@
 itemGroup.dimensionalores=Dimensional Ores
 
 #Items
-item.ingot_aluminium.name=Aluminium Ingot
+item.ingot_aluminium.name=Aluminum Ingot
 item.ingot_cobalt.name=Cobalt Ingot
 item.ingot_copper.name=Copper Ingot
 item.ingot_lead.name=Lead Ingot
@@ -30,7 +30,7 @@ tile.end_redstone.name=End Redstone Ore
 tile.nether_lapis.name=Nether Lapis Lazuli Ore
 tile.end_lapis.name=End Lapis Lazuli Ore
 tile.nether_aluminium.name=Nether Aluminum Ore
-tile.end_aluminium.name=End Aluminium Ore
+tile.end_aluminium.name=End Aluminum Ore
 tile.overworld_aluminium.name=Aluminum Ore
 tile.nether_cobalt.name=Nether Cobalt Ore
 tile.end_cobalt.name=End Cobalt Ore
@@ -84,8 +84,8 @@ config.add_end_ores.desc=Should the End Ores be added?
 config.add_overworld_ores.title=Add Overworld Ores
 config.add_overworld_ores.desc=Should the Overworld Ores be added?
 #Nether
-config.add_nether_aluminium.title=Nether Aluminium Ore
-config.add_nether_aluminium.desc=Should this ore be added?
+config.add_nether_aluminum.title=Nether Aluminum Ore
+config.add_nether_aluminum.desc=Should this ore be added?
 config.add_nether_coal.title=Nether Coal Ore
 config.add_nether_coal.desc=Should this ore be added?
 config.add_nether_cobalt.title=Nether Cobalt Ore

@@ -17,7 +17,7 @@ public class Recipes {
             if (ConfigurationHandler.add_nether_redstone) GameRegistry.addSmelting(new ItemStack(ModBlocks.nether_redstone), new ItemStack(Items.REDSTONE), 1.25f);
             if (ConfigurationHandler.add_nether_lapis) GameRegistry.addSmelting(new ItemStack(ModBlocks.nether_lapis), new ItemStack(Items.DYE, 1, 4), 1.25f);
 
-            if (ConfigurationHandler.add_nether_aluminium) GameRegistry.addSmelting(new ItemStack(ModBlocks.nether_aluminium), new ItemStack(ModItems.ingot_aluminium), 1.25f);
+            if (ConfigurationHandler.add_nether_aluminum) GameRegistry.addSmelting(new ItemStack(ModBlocks.nether_aluminium), new ItemStack(ModItems.ingot_aluminium), 1.25f);
             if (ConfigurationHandler.add_nether_cobalt) GameRegistry.addSmelting(new ItemStack(ModBlocks.nether_cobalt), new ItemStack(ModItems.ingot_cobalt), 1.25f);
             if (ConfigurationHandler.add_nether_copper) GameRegistry.addSmelting(new ItemStack(ModBlocks.nether_copper), new ItemStack(ModItems.ingot_copper), 1.25f);
             if (ConfigurationHandler.add_nether_lead) GameRegistry.addSmelting(new ItemStack(ModBlocks.nether_lead), new ItemStack(ModItems.ingot_lead), 1.25f);
@@ -38,7 +38,7 @@ public class Recipes {
             if (ConfigurationHandler.add_end_lapis) GameRegistry.addSmelting(new ItemStack(ModBlocks.end_lapis), new ItemStack(Items.DYE, 1, 4), 1.25f);
             if (ConfigurationHandler.add_end_quartz) GameRegistry.addSmelting(new ItemStack(ModBlocks.end_quartz), new ItemStack(Items.DYE, 1, 4), 1.25f);
 
-            if (ConfigurationHandler.add_end_aluminium) GameRegistry.addSmelting(new ItemStack(ModBlocks.end_aluminium), new ItemStack(ModItems.ingot_aluminium), 1.25f);
+            if (ConfigurationHandler.add_end_aluminum) GameRegistry.addSmelting(new ItemStack(ModBlocks.end_aluminium), new ItemStack(ModItems.ingot_aluminium), 1.25f);
             if (ConfigurationHandler.add_end_cobalt) GameRegistry.addSmelting(new ItemStack(ModBlocks.end_cobalt), new ItemStack(ModItems.ingot_cobalt), 1.25f);
             if (ConfigurationHandler.add_end_copper) GameRegistry.addSmelting(new ItemStack(ModBlocks.end_copper), new ItemStack(ModItems.ingot_copper), 1.25f);
             if (ConfigurationHandler.add_end_lead) GameRegistry.addSmelting(new ItemStack(ModBlocks.end_lead), new ItemStack(ModItems.ingot_lead), 1.25f);
@@ -52,7 +52,7 @@ public class Recipes {
         if(ConfigurationHandler.add_overworld_ores){
             if (ConfigurationHandler.add_overworld_quartz) GameRegistry.addSmelting(new ItemStack(ModBlocks.overworld_quartz), new ItemStack(Items.QUARTZ), 1.25f);
 
-            if (ConfigurationHandler.add_overworld_aluminium) GameRegistry.addSmelting(new ItemStack(ModBlocks.overworld_aluminium), new ItemStack(ModItems.ingot_aluminium), 1.25f);
+            if (ConfigurationHandler.add_overworld_aluminum) GameRegistry.addSmelting(new ItemStack(ModBlocks.overworld_aluminium), new ItemStack(ModItems.ingot_aluminium), 1.25f);
             if (ConfigurationHandler.add_overworld_cobalt) GameRegistry.addSmelting(new ItemStack(ModBlocks.overworld_cobalt), new ItemStack(ModItems.ingot_cobalt), 1.25f);
             if (ConfigurationHandler.add_overworld_copper) GameRegistry.addSmelting(new ItemStack(ModBlocks.overworld_copper), new ItemStack(ModItems.ingot_copper), 1.25f);
             if (ConfigurationHandler.add_overworld_lead) GameRegistry.addSmelting(new ItemStack(ModBlocks.overworld_lead), new ItemStack(ModItems.ingot_lead), 1.25f);
