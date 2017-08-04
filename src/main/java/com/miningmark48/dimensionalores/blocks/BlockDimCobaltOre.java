@@ -13,6 +13,7 @@ public class BlockDimCobaltOre extends ModBaseBlock {
         super(Material.ROCK, MapColor.GRAY);
         setHardness(3.0F);
         setResistance(15.0F);
+        setHarvestLevel("pickaxe", 3);
     }
 
     @SideOnly(Side.CLIENT)
