@@ -22,9 +22,9 @@ public class ModOreDict{
         if (ConfigurationHandler.add_nether_ores && ConfigurationHandler.add_nether_lapis)      OreDictionary.registerOre("oreLapis", ModBlocks.nether_lapis);
         if (ConfigurationHandler.add_end_ores && ConfigurationHandler.add_end_lapis)            OreDictionary.registerOre("oreLapis", ModBlocks.end_lapis);
 
-        if (ConfigurationHandler.add_nether_ores && ConfigurationHandler.add_end_aluminum)             OreDictionary.registerOre("oreAluminium", ModBlocks.nether_aluminium);
-        if (ConfigurationHandler.add_end_ores && ConfigurationHandler.add_nether_aluminum)             OreDictionary.registerOre("oreAluminium", ModBlocks.end_aluminium);
-        if (ConfigurationHandler.add_overworld_ores && ConfigurationHandler.add_overworld_aluminum)    OreDictionary.registerOre("oreAluminium", ModBlocks.overworld_aluminium);
+        if (ConfigurationHandler.add_nether_ores && ConfigurationHandler.add_end_aluminum)             OreDictionary.registerOre("oreAluminum", ModBlocks.nether_aluminium);
+        if (ConfigurationHandler.add_end_ores && ConfigurationHandler.add_nether_aluminum)             OreDictionary.registerOre("oreAluminum", ModBlocks.end_aluminium);
+        if (ConfigurationHandler.add_overworld_ores && ConfigurationHandler.add_overworld_aluminum)    OreDictionary.registerOre("oreAluminum", ModBlocks.overworld_aluminium);
         if (ConfigurationHandler.add_nether_ores && ConfigurationHandler.add_end_cobalt)                OreDictionary.registerOre("oreCobalt", ModBlocks.nether_cobalt);
         if (ConfigurationHandler.add_end_ores && ConfigurationHandler.add_nether_cobalt)                OreDictionary.registerOre("oreCobalt", ModBlocks.end_cobalt);
         if (ConfigurationHandler.add_overworld_ores && ConfigurationHandler.add_overworld_cobalt)       OreDictionary.registerOre("oreCobalt", ModBlocks.overworld_cobalt);
